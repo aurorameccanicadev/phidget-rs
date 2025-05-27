@@ -132,6 +132,7 @@ pub use crate::devices::{
     hub::Hub, humidity_sensor::HumiditySensor, pressure_sensor::PressureSensor,
     temperature_sensor::TemperatureSensor, voltage_input::VoltageInput,
     voltage_output::VoltageOutput, voltage_ratio_input::VoltageRatioInput,
+    sound_sensor::SoundSensor
 };
 
 pub mod manager;

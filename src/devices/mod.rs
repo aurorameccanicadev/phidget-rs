@@ -26,6 +26,10 @@ pub use crate::devices::humidity_sensor::{HumidityChangeCallback, HumiditySensor
 pub mod pressure_sensor;
 pub use crate::devices::pressure_sensor::{PressureChangeCallback, PressureSensor};
 
+/// Phidget pressure sensor
+pub mod sound_sensor;
+pub use crate::devices::sound_sensor::{SoundSPLChangeCallback, SoundSensor};
+
 /// Phidget stepper
 pub mod stepper;
 pub use crate::devices::stepper::Stepper;
